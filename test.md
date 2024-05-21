@@ -1,15 +1,3 @@
-1. MHD Equations
-  - Mass Conservation
-    - $\frac{\partial \rho}{\partial \tau} + \nabla \cdot (\rho u) = 0$
-    - $\rho$ is
-  - Momentum Conservation
-    - $\rho(\frac{\partial u}{\partial t} + u \cdot \nabla u) = -\nabla P + \overrightarrow{j} \times \overrightarrow{B}$
-      - $\overrightarrow{j}$ is current density, $\overrightarrow{B}$ is magnetic field, and their cross product is the Lorentz force
-  - Ohm's Law
-    - $j = \sigma E'_{r}$
-      - $\sigma$ is the conductivity of the medium, and $E'_{r}$ is the displacement field
-      - The displacement field is the electric field in the frame of the fluid.
-        - To change the frame of reference, use a Lorentzian transform, so $E' = \overrightarrow{E} + \overrightarrow{u} \times \overrightarrow{B}$
 ```
 Instructions:
 Make a copy of this file in the directory for its corresponding week,replacing the [TEMPLATE]
@@ -31,6 +19,7 @@ A short (few sentences) summary of the class in your own words (like an abstract
 ### Outline 
 
 1. MHD Equations
+  - Valid for highly magnetized plasmas and large scale motions
   - Mass Conservation
     - $\frac{\partial \rho}{\partial \tau} + \nabla \cdot (\rho u) = 0$
     - $\rho$ is
@@ -45,8 +34,10 @@ A short (few sentences) summary of the class in your own words (like an abstract
   - Maxwell's Equations
     - $\overrightarrow{\nabla} \times \overrightarrow{E} = -\frac{\partial \overrightarrow{B}}{\partial t}$
       - $-\frac{\partial \overrightarrow{B}}{\partial t} = \overrightarrow{\nabla} \times (\overrightarrow{u} \times \overrightarrow{B}$
-    - $\overrightarrow{\nabla} \times \overrightarrow{B} - \frac{1}{c^2} \frac{\partial \overrightarrow{\E}}{\partial t} = \mu_0 \overrightarrow{j}$
+    - $\overrightarrow{\nabla} \times \overrightarrow{B} - \frac{1}{c^2} \frac{\partial \overrightarrow{E}}{\partial t} = \mu_0 \overrightarrow{j}$
       - $\overrightarrow{j} = -\rho e (\overrightarrow{u}_{e} - \overrightarrow{u}_{i}$
+  - Combining the momentum equation and second Maxwell equation:
+    - \frac{\overrightarrow{j} \times \overrightarrow{B}}{c}
 
 ### Questions 
 ```
