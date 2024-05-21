@@ -37,7 +37,7 @@ A short (few sentences) summary of the class in your own words (like an abstract
     - $\overrightarrow{\nabla} \times \overrightarrow{B} - \frac{1}{c^2} \frac{\partial \overrightarrow{E}}{\partial t} = \mu_0 \overrightarrow{j}$
       - $\overrightarrow{j} = -\rho e (\overrightarrow{u_e} - \overrightarrow{u_i})$
   - Combining the momentum equation and second Maxwell equation:
-    - $\frac{\overrightarrow{j} \times \overrightarrow{B}}{c}$
+    - $\frac{\overrightarrow{j} \times \overrightarrow{B}}{c} = \frac{(\overrightarrow{j\nabla} \overrightarrow{B}) \times \overrightarrow{B}}{4\pi}$
 
 ### Questions 
 ```
