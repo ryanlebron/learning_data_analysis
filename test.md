@@ -1,19 +1,9 @@
-```
-Instructions:
-Make a copy of this file in the directory for its corresponding week,replacing the [TEMPLATE]
-in the title with the date in Mon.-Day format (ex: Jan-29-recap.md).
-(You can also just go into Edit mode, copy the contents and paste them into a new markdown file
-you make in the corresponding directory).
-Remove all the template text (anything between ``` ```) and fill in with your recap.
-When you're ready, submit with the commmit title:
-CLASS RECAP-[NAME]
-```
-# Class Recap: Week No. - DATE
-## Topic: 
+# Class Recap: Week No. 7 - March 11, 2024
+## Topic: Magnetohydrodynamics
 
 ### Summary
 ```
-A short (few sentences) summary of the class in your own words (like an abstract for a lecture). 
+In this lecture, we were introduced to ideal magnetohydrodynamics, and the equations that drive these processes. Those equations included conservation of mass, conservation of momentum, Ohm's law, and Maxwell's equations. We then had a brief run through magnetic flux and polarization of grains. The magnetic flux comes into play because, in order for stars to form, gravity must be able to overcome the magnetic forces as play.
 ```
 
 ### Outline 
@@ -48,26 +38,29 @@ A short (few sentences) summary of the class in your own words (like an abstract
       -  $= \int \overrightarrow{\nabla} \times \overrightarrow{E}d\overrightarrow{s} + \int \overrightarrow{\nabla} \times (\overrightarrow{B} \times \overrightarrow{u}) \cdot d\overrightarrow{s}$
       -  $\frac{\partial \psi}{\partial t} = \int \overrightarrow{\nabla} \times (E + \overrightarrow{u} \times \overrightarrow{B}) \cdot d\overrightarrow{s}$
       -  For ideal MHD, $\frac{\partial \psi}{\partial t} = 0$ (constant) which is refered to as Flux Freezing
+        - There are two options to beat flux freezing
+          - Dissipative processes
+          - Ambipolar diffusion
+
 #### Some star formation stuff
   - To form stars, gravity must be greater than magnetic pressure
     - $\nabla \Phi > \frac{\nabla B^2}{8\pi}$
     - $\frac{GM^2}{R} > \frac{B^2}{8\pi} \cdot \frac{4\pi}{3}R^3$
     - From this we find the mass to flux ratio's critical value to be $\frac{M}{\Phi} = \frac{0.12}{\sqrt{G}}$
-  - There are two options to beat flux freezing
-    - Dissipative processes
-    - Ambipolar diffusion
+#### Ended on a short note about grain polarization
+  - A grain will align with a magnetic field due to its non-spherical shape
+    - Absoprtion leads to polarization that is parallel to the magnetic field
+    - Emission leads to polarization that is perpendicular to the magnetic field
+  - On large scales, the magnetic field is perpendicular to the filament, but the opposite is true for small scales
 
 
 ### Questions 
 ```
-- A question came up about the form of Ohm's law being used, with the one used in class being the original statment, vs. what is taught for circuitry. 
+A question came up about the form of Ohm's law being used, with the one used in class being the original statment, vs. what is taught for circuitry. 
 ```
 
 ### Related Resources
 ```
-Resource contributions can go here.  
-[Links]URL can be directly inserted.
-You can upload files into the relevant folder and link them with a local relative link: [name][./filename.extension]
-(You can even copy paste images straight into the github editor!)
+
 ```
 
