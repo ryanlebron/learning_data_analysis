@@ -47,6 +47,7 @@ A short (few sentences) summary of the class in your own words (like an abstract
       -  $\frac{\partial \psi}{\partial t} = \int_{s} \frac{\partial \overrightarrow{B}}{\partial t} \cdot d\overrightarrow{s} + \int_{C} \overrightarrow{B} \cdot \overrightarrow{u} \times dr$
       -  $= \int \overrightarrow{\nabla} \times \overrightarrow{E}d\overrightarrow{s} + \int \overrightarrow{\nabla} \times (\overrightarrow{B} \times \overrightarrow{u}) \cdot d\overrightarrow{s}$
       -  $\frac{\partial \psi}{\partial t} = \int \overrightarrow{\nabla} \times (E + \overrightarrow{u} \times \overrightarrow{B}) \cdot d\overrightarrow{s}$
+      -  For ideal MHD, $\frac{\partial \psi}{\partial t} = 0$ (constant) which is refered to as Flux Freezing
 
 ### Questions 
 ```
