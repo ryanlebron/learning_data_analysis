@@ -48,6 +48,11 @@ A short (few sentences) summary of the class in your own words (like an abstract
       -  $= \int \overrightarrow{\nabla} \times \overrightarrow{E}d\overrightarrow{s} + \int \overrightarrow{\nabla} \times (\overrightarrow{B} \times \overrightarrow{u}) \cdot d\overrightarrow{s}$
       -  $\frac{\partial \psi}{\partial t} = \int \overrightarrow{\nabla} \times (E + \overrightarrow{u} \times \overrightarrow{B}) \cdot d\overrightarrow{s}$
       -  For ideal MHD, $\frac{\partial \psi}{\partial t} = 0$ (constant) which is refered to as Flux Freezing
+#### Some star formation stuff
+  - To form stars, gravity must be greater than magnetic pressure
+    - $\nabla \Phi > \frac{\nabla B^2}{8\pi}$
+    - $\frac{GM^2}{R} > \frac{B^2}{8\pi} \cdot \frac{4\pi}{3}R^3$
+    - From this we find the mass to flux ratio's critical value to be $\frac{M}{\Phi} = \frac{0.12}{\sqrt{G}$
 
 ### Questions 
 ```
