@@ -29,7 +29,7 @@ A short (few sentences) summary of the class in your own words (like an abstract
 ```
 
 ### Outline 
-```
+
 1. MHD Equations
   - Mass Conservation
     - $\frac{\partial \rho}{\partial \tau} + \nabla \cdot (\rho u) = 0$
@@ -47,7 +47,6 @@ A short (few sentences) summary of the class in your own words (like an abstract
       - $-\frac{\partial \overrightarrow{B}}{\partial t} = \overrightarrow{\nabla} \times (\overrightarrow{u} \times \overrightarrow{B}$
     - $\overrightarrow{\nabla} \times \overrightarrow{B} - \frac{1}{c^2} \frac{\partial \overrightarrow{\E}}{\partial t} = \mu_0 \overrightarrow{j}$
       - $\overrightarrow{j} = -\rho e (\overrightarrow{u}_{e} - \overrightarrow{u}_{i}$
-```
 
 ### Questions 
 ```
