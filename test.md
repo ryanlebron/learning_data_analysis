@@ -17,8 +17,7 @@ A short (few sentences) summary of the class in your own words (like an abstract
 ```
 
 ### Outline 
-
-1. MHD Equations
+#### MHD Equations
   - Valid for highly magnetized plasmas and large scale motions
   - Mass Conservation
     - $\frac{\partial \rho}{\partial \tau} + \nabla \cdot (\rho u) = 0$
@@ -40,6 +39,14 @@ A short (few sentences) summary of the class in your own words (like an abstract
     - $\frac{\overrightarrow{j} \times \overrightarrow{B}}{c} = \frac{(\overrightarrow{\nabla} \times \overrightarrow{B}) \times \overrightarrow{B}}{4\pi}$
     - Using a vector identitiy, this becomes:
       - $\frac{\overrightarrow{j} \times \overrightarrow{B}}{c} = \frac{\nabla |B|^2}{8\pi} + \frac{1}{4\pi} (\overrightarrow{B} \cdot \nabla \overrightarrow{B})$
+        - The first term describes the magnetic pressure, which resists compression perpendicular to field lines
+        - The second term describes the magnetic tension, which seeks to flatten the field's curvature
+  - Magnetic Flux
+    - $\psi = \int_{s} \overrightarrow{B} \cdot d\overrightarrow{s}$
+      -  Solving this:
+      -  $\frac{\partial \psi}{\partial t} = \int_{s} \frac{\partial \overrightarrow{B}}{\partial t} \cdot d\overrightarrow{s} + \int_{C} \overrightarrow{B} \cdot \overrightarrow{u} \times dr$
+      -  $= \int \overrightarrow{\nabla} \times \overrightarrow{E}d\overrightarrow{s} + \int \overrightarrow{\nabla} \times (\overrightarrow{B} \times \overrightarrow{u}) \cdot d\overrightarrow{s}$
+      -  $\frac{\partial \psi}{\partial t} = \int \overrightarrow{\nabla} \times (E + \overrightarrow{u} \times \overrightarrow{B}) \cdot d\overrightarrow{s}$
 
 ### Questions 
 ```
