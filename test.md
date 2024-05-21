@@ -53,6 +53,10 @@ A short (few sentences) summary of the class in your own words (like an abstract
     - $\nabla \Phi > \frac{\nabla B^2}{8\pi}$
     - $\frac{GM^2}{R} > \frac{B^2}{8\pi} \cdot \frac{4\pi}{3}R^3$
     - From this we find the mass to flux ratio's critical value to be $\frac{M}{\Phi} = \frac{0.12}{\sqrt{G}}$
+  - There are two options to beat flux freezing
+    - Dissipative processes
+    - Ambipolar diffusion
+
 
 ### Questions 
 ```
